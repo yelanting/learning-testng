@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+      <class name="com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest">
+        <test-method status="PASS" signature="testLength()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@150c158, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=1, length=2]" name="testLength" duration-ms="12" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLength -->
+        <test-method status="PASS" signature="testLength()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@2e3fc542, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=8, length=9]" name="testLength" duration-ms="1" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLength -->
+        <test-method status="PASS" signature="testLength()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@4524411f, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=4, length=5]" name="testLength" duration-ms="0" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLength -->
+        <test-method status="PASS" signature="testLength()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@544a2ea6, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=6, length=7]" name="testLength" duration-ms="1" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLength -->
+        <test-method status="PASS" signature="testWidth()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@150c158, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=1, length=2]" name="testWidth" duration-ms="1" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWidth -->
+        <test-method status="PASS" signature="testWidth()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@2e3fc542, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=8, length=9]" name="testWidth" duration-ms="1" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWidth -->
+        <test-method status="PASS" signature="testWidth()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@4524411f, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=4, length=5]" name="testWidth" duration-ms="2" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWidth -->
+        <test-method status="PASS" signature="testWidth()[pri:0, instance:com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest@544a2ea6, instance params:[]]" test-instance-name="Rectangle:RectangleModel [width=6, length=7]" name="testWidth" duration-ms="1" started-at="2020-04-24T19:10:19 CST" finished-at="2020-04-24T19:10:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWidth -->
+      </class> <!-- com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

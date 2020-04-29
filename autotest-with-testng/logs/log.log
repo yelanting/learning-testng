@@ -1,0 +1,106 @@
+[2020.04.24 14:57:07] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 14:57:07] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:02:53] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:02:53] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:02:53] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:03:54] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:03:54] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:03:54] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:03:54] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:05:39] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:05:39] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:05:39] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:05:39] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:05:39] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 15:05:39] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:06:47] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:06:47] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:06:47] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
+[2020.04.24 15:07:48] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:07:48] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:07:48] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:33:15] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
+[2020.04.24 15:33:16] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:33:16] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:33:16] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
+[2020.04.24 15:34:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:34:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
+[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 15:34:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 18:13:21] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
+[2020.04.24 18:13:21] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 18:13:21] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.24 18:13:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 18:13:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 18:13:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
+[2020.04.24 18:18:10] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
+[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
+[2020.04.24 18:18:10] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
+[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
+[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度0
+[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度0
+[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度0
+[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度0
+[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度5
+[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度2
+[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度4
+[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度1
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度5
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度7
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度2
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度9
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度4
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度6
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度1
+[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度8
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度9
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度2
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度7
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度5
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度8
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度1
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度6
+[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度4
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度9
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度2
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度7
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度5
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度8
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度1
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度6
+[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度4
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度2
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度9
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度5
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度7
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度1
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度8
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度4
+[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度6
