@@ -8,18 +8,42 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">65</td><td></td><td></td></tr>
+<tr><th colspan="8">DDT DATAPROIVIDER SUITE</th></tr>
+<tr><td><a href="#t0">DDT DATAPROVIDER TEST</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">93</td><td>testGroup2, testGroup1</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest</td><td><a href="#m0">testLength</a></td><td rowspan="4">1587726619709</td><td rowspan="4">12</td></tr><tr class="passedeven"><td><a href="#m1">testLength</a></td></tr><tr class="passedeven"><td><a href="#m2">testLength</a></td></tr><tr class="passedeven"><td><a href="#m3">testLength</a></td></tr><tr class="passedeven"><td><a href="#m4">testWidth</a></td><td rowspan="4">1587726619737</td><td rowspan="4">2</td></tr><tr class="passedeven"><td><a href="#m5">testWidth</a></td></tr><tr class="passedeven"><td><a href="#m6">testWidth</a></td></tr><tr class="passedeven"><td><a href="#m7">testWidth</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">DDT DATAPROIVIDER SUITE</th></tr></tbody><tbody id="t0"><tr><th colspan="4">DDT DATAPROVIDER TEST &#8212; failed</th></tr><tr class="failedeven"><td rowspan="8">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext</td><td><a href="#m0">validateUserTestWithProviderParamDefault</a></td><td rowspan="2">1588154600217</td><td rowspan="2">1</td></tr><tr class="failedeven"><td><a href="#m1">validateUserTestWithProviderParamDefault</a></td></tr><tr class="failedeven"><td><a href="#m2">validateUserTestWithProviderParamOne</a></td><td rowspan="3">1588154600226</td><td rowspan="3">2</td></tr><tr class="failedeven"><td><a href="#m3">validateUserTestWithProviderParamOne</a></td></tr><tr class="failedeven"><td><a href="#m4">validateUserTestWithProviderParamOne</a></td></tr><tr class="failedeven"><td><a href="#m5">validateUserTestWithProviderParamTwo</a></td><td rowspan="3">1588154600240</td><td rowspan="3">2</td></tr><tr class="failedeven"><td><a href="#m6">validateUserTestWithProviderParamTwo</a></td></tr><tr class="failedeven"><td><a href="#m7">validateUserTestWithProviderParamTwo</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testLength</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testLength</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testLength</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testLength</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testWidth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testWidth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testWidth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest#testWidth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>DDT DATAPROVIDER TEST</h2><h3 id="m0">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamDefault</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin2</td><td>women</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamDefault(TestNGDDTDemoTestWithDataProviderITestContext.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamDefault</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>man</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamDefault(TestNGDDTDemoTestWithDataProviderITestContext.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin3</td><td>women</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamOne(TestNGDDTDemoTestWithDataProviderITestContext.java:40)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin4</td><td>women</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamOne(TestNGDDTDemoTestWithDataProviderITestContext.java:40)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamOne</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>man</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamOne(TestNGDDTDemoTestWithDataProviderITestContext.java:40)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamTwo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin5</td><td>women</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamTwo(TestNGDDTDemoTestWithDataProviderITestContext.java:47)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamTwo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin6</td><td>women</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamTwo(TestNGDDTDemoTestWithDataProviderITestContext.java:47)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext#validateUserTestWithProviderParamTwo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>man</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext.validateUserTestWithProviderParamTwo(TestNGDDTDemoTestWithDataProviderITestContext.java:47)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

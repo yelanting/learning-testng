@@ -346,6 +346,157 @@ java org.testng.TestNG test-output/testng-failed.xml
 
 </pre><h3 class="mume-header" id="12-%E5%B7%A5%E5%8E%82">1.2 &#x5DE5;&#x5382;</h3>
 
+<h4 class="mume-header" id="121-factory%E6%B3%A8%E8%A7%A3">1.2.1 @Factory&#x6CE8;&#x89E3;</h4>
+
+<p>&#x901A;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x884C;&#x3001;ant&#x3001;&#x6216;&#x8005;testng.xml&#x5C06;&#x6D4B;&#x8BD5;&#x7C7B;&#x4F20;&#x9012;&#x7ED9;TestNG&#x7684;&#x65F6;&#x5019;&#xFF0C;TestNG&#x4F1A;&#x628A;&#x6240;&#x6709;&#x7684;&#x7C7B;&#x90FD;&#x5B9E;&#x4F8B;&#x5316;(&#x901A;&#x8FC7;&#x8C03;&#x7528;&#x6784;&#x9020;&#x65B9;&#x6CD5;)&#xFF0C;&#x7136;&#x540E;&#x6267;&#x884C;&#x6BCF;&#x4E2A;&#x7C7B;&#x7684;&#x6D4B;&#x8BD5;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x8FD9;&#x5C31;&#x4EA7;&#x751F;&#x4E86;&#x4E00;&#x4E2A;&#x9650;&#x5236;&#xFF0C;&#x5F53;&#x6709;&#x4E9B;&#x6D4B;&#x8BD5;&#x7C7B;&#xFF0C;&#x9644;&#x5E26;&#x51E0;&#x4E2A;&#x6210;&#x5458;&#x53D8;&#x91CF;&#xFF0C;&#x4E14;&#x9700;&#x8981;&#x521D;&#x59CB;&#x5316;&#x5F97;&#x65F6;&#x5019;&#xFF0C;&#x95EE;&#x9898;&#x5C31;&#x6765;&#x4E86;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="java" class="language-java"><span class="token comment">//RectangleModel.java</span>
+<span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>autotest<span class="token punctuation">.</span>java<span class="token punctuation">.</span>demo<span class="token punctuation">.</span>testng<span class="token punctuation">.</span>model</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * @author : Administrator
+ * @since : 2020&#x5E74;4&#x6708;24&#x65E5; &#x4E0B;&#x5348;6:31:11
+ * @see :&#x6B64;&#x5904;&#x7528;&#x4E00;&#x4E2A;&#x77E9;&#x5F62;&#x6765;&#x6D4B;&#x8BD5;
+ */</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">RectangleModel</span> <span class="token punctuation">{</span>
+	<span class="token keyword">private</span> <span class="token keyword">int</span> width<span class="token punctuation">;</span>
+	<span class="token keyword">private</span> <span class="token keyword">int</span> length<span class="token punctuation">;</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">getWidth</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> width<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setWidth</span><span class="token punctuation">(</span><span class="token keyword">int</span> width<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>width <span class="token operator">=</span> width<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">getLength</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> length<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setLength</span><span class="token punctuation">(</span><span class="token keyword">int</span> length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>length <span class="token operator">=</span> length<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token annotation punctuation">@Override</span>
+	<span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token string">&quot;RectangleModel [width=&quot;</span> <span class="token operator">+</span> width <span class="token operator">+</span> <span class="token string">&quot;, length=&quot;</span> <span class="token operator">+</span> length <span class="token operator">+</span> <span class="token string">&quot;]&quot;</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token class-name">RectangleModel</span><span class="token punctuation">(</span><span class="token keyword">int</span> width<span class="token punctuation">,</span> <span class="token keyword">int</span> length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>width <span class="token operator">=</span> width<span class="token punctuation">;</span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>length <span class="token operator">=</span> length<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token keyword">public</span> <span class="token class-name">RectangleModel</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+</pre><p>&#x4E0B;&#x9762;&#x662F;&#x4F9D;&#x8D56;&#x4E8E;&#x8FD9;&#x4E2A;&#x77E9;&#x5F62;&#x7C7B;&#x7684;&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info="java" class="language-java"><span class="token comment">//TestNGDemoWithFactoryTest.java</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>testng<span class="token punctuation">.</span>annotations</span><span class="token punctuation">.</span><span class="token class-name">Test</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token namespace">com<span class="token punctuation">.</span>autotest<span class="token punctuation">.</span>java<span class="token punctuation">.</span>demo<span class="token punctuation">.</span>testng<span class="token punctuation">.</span>model</span><span class="token punctuation">.</span><span class="token class-name">RectangleModel</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * @author : Administrator
+ * @since : 2020&#x5E74;4&#x6708;24&#x65E5; &#x4E0B;&#x5348;6:30:10
+ * @see :
+ */</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TestNGDemoWithFactoryTest</span> <span class="token punctuation">{</span>
+	<span class="token keyword">private</span> <span class="token class-name">RectangleModel</span> rectangleModel<span class="token punctuation">;</span>
+	<span class="token keyword">private</span> <span class="token keyword">int</span> width<span class="token punctuation">;</span>
+	<span class="token keyword">private</span> <span class="token keyword">int</span> length<span class="token punctuation">;</span>
+
+	<span class="token keyword">public</span> <span class="token class-name">TestNGDemoWithFactoryTest</span><span class="token punctuation">(</span><span class="token keyword">int</span> width<span class="token punctuation">,</span> <span class="token keyword">int</span> length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>rectangleModel <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RectangleModel</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token annotation punctuation">@Test</span>
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">testWidth</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+	<span class="token punctuation">}</span>
+
+	<span class="token annotation punctuation">@Test</span>
+	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">testLength</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</pre><p>&#x8FD0;&#x884C;&#x4E0A;&#x8FF0;&#x6D4B;&#x8BD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5219;&#x4F1A;&#x62A5;&#x9519;,&#x5927;&#x81F4;&#x610F;&#x601D;&#x662F;&#x65E0;&#x6CD5;&#x521D;&#x59CB;&#x5316;&#x8FD9;&#x4E2A;&#x6D4B;&#x8BD5;&#x7C7B;&#xFF1A;</p>
+<pre data-role="codeBlock" data-info class="language-"><code>[RemoteTestNG] detected TestNG version 7.0.1
+org.testng.TestNGException: 
+An error occurred while instantiating class com.autotest.java.demo.testng.TestNGDemoWithFactoryTest. Check to make sure it can be instantiated
+	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:134)
+	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:109)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:167)
+	at org.testng.TestClass.getInstances(TestClass.java:102)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:82)
+	at org.testng.TestClass.init(TestClass.java:74)
+	at org.testng.TestClass.&lt;init&gt;(TestClass.java:39)
+	at org.testng.TestRunner.initMethods(TestRunner.java:455)
+	at org.testng.TestRunner.init(TestRunner.java:339)
+	at org.testng.TestRunner.init(TestRunner.java:292)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:223)
+	at org.testng.remote.support.RemoteTestNG6_12$1.newTestRunner(RemoteTestNG6_12.java:33)
+	at org.testng.remote.support.RemoteTestNG6_12$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG6_12.java:66)
+	at org.testng.ITestRunnerFactory.newTestRunner(ITestRunnerFactory.java:55)
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:676)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:178)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:112)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1291)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1278)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1127)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</code></pre><p>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;<br>
+&#x53EF;&#x4EE5;&#x7528;@Factory&#x6CE8;&#x89E3;,&#x52A0;&#x4E0A;&#x5982;&#x4E0B;&#x4EE3;&#x7801;:</p>
+<pre data-role="codeBlock" data-info="java" class="language-java"><span class="token comment">//TestNGDemoWithFactoryTest.java</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>testng<span class="token punctuation">.</span>annotations</span><span class="token punctuation">.</span><span class="token class-name">Factory</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@Factory</span>
+	<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Object</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">List</span> result <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		result<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">TestNGDemoWithFactoryTest</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		result<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">TestNGDemoWithFactoryTest</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token keyword">return</span> result<span class="token punctuation">.</span><span class="token function">toArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	<span class="token punctuation">}</span>
+
+</pre><p>&#x5982;&#x56FE;&#x662F;&#x589E;&#x52A0;&#x5DE5;&#x5382;&#x4E4B;&#x540E;&#x7684;&#x6267;&#x884C;&#x7ED3;&#x679C;,&#x53EF;&#x4EE5;&#x53D1;&#x73B0;&#x6BCF;&#x4E2A;&#x6D4B;&#x8BD5;&#x65B9;&#x6CD5;&#x90FD;&#x88AB;&#x6267;&#x884C;&#x4E86;&#x4E24;&#x6B21;&#xFF0C;&#x56E0;&#x4E3A;&#x5DE5;&#x5382;&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x4E86;&#x4E24;&#x4E2A;&#x5B9E;&#x4F8B;&#x3002;</p>
+<p><img src="./images/testng%E6%A6%82%E8%A7%88/factory%E6%B3%A8%E8%A7%A3%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C.png" alt="&#x589E;&#x52A0;Factory&#x6CE8;&#x89E3;&#x4E4B;&#x540E;&#x7684;&#x7ED3;&#x679C;"></p>
+<p>&#x5173;&#x4E8E;&#x5DE5;&#x5382;&#x7684;&#x6CE8;&#x610F;&#x70B9;:</p>
+<ul>
+<li>&#x5B83;&#x9700;&#x8981;&#x6CE8;&#x89E3;&#x5230;&#x4E00;&#x4E2A;&#x8FD4;&#x56DE;&#x5BF9;&#x8C61;&#x6570;&#x7EC4;&#x7684;&#x65B9;&#x6CD5;&#x4E0A;(&#x8FD4;&#x56DE;&#x503C;&#x662F;Object[] )</li>
+<li>&#x5B83;&#x4F1A;&#x5728;&#x6240;&#x6709;&#x5F97;Test&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x4E4B;&#x524D;&#x8FD0;&#x884C;</li>
+<li>&#x5B83;&#x53EA;&#x4F1A;&#x8FD0;&#x884C;&#x4E00;&#x6B21;</li>
+<li>&#x5982;&#x679C;&#x6709;&#x591A;&#x4E2A;&#xFF0C;&#x90A3;&#x4E48;&#x4F1A;&#x628A;&#x6240;&#x6709;&#x5F97;@Factory&#x6CE8;&#x89E3;&#x7684;&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x5B8C;&#x4E4B;&#x540E;&#xFF0C;&#x518D;&#x6267;&#x884C;&#x6D4B;&#x8BD5;</li>
+<li>&#x8BF7;&#x628A;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x8BBE;&#x7F6E;&#x4E3A;static&#xFF0C;&#x6216;&#x8005;&#x628A;&#x65E0;&#x53C2;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x63D0;&#x4F9B;&#x51FA;&#x6765;</li>
+</ul>
+<p>&#x5982;&#x4E0B;&#x662F;&#x5982;&#x679C;&#x628A;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;static&#x53BB;&#x6389;&#xFF0C;&#x5219;&#x4F1A;&#x8FD0;&#x884C;&#x5931;&#x8D25;:</p>
+<p><img src="./images/testng%E6%A6%82%E8%A7%88/%E4%B8%8D%E5%B8%A6static%E7%9A%84Factory%E6%96%B9%E6%B3%95.png" alt="&#x53BB;&#x6389;static&#x7684;factory&#x65B9;&#x6CD5;"></p>
+<h4 class="mume-header" id="122-%E5%A4%9A%E4%B8%AA%E5%AE%9E%E4%BE%8B%E7%9A%84%E6%B5%8B%E8%AF%95%E4%BF%A1%E6%81%AF">1.2.2 &#x591A;&#x4E2A;&#x5B9E;&#x4F8B;&#x7684;&#x6D4B;&#x8BD5;&#x4FE1;&#x606F;</h4>
+
+<p>&#x5728;&#x4E0A;&#x8282;&#x4E2D;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x53CD;&#x6620;&#x7684;&#x4E0D;&#x662F;&#x90A3;&#x4E48;&#x660E;&#x663E;&#xFF0C;&#x5DF2;&#x7ECF;&#x4E0D;&#x77E5;&#x9053;&#x54EA;&#x4E2A;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x662F;&#x7531;&#x54EA;&#x4E2A;&#x6D4B;&#x8BD5;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x8FD0;&#x884C;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x5931;&#x8D25;&#x4E86;&#x5E76;&#x4E0D;&#x65B9;&#x4FBF;&#x5B9A;&#x4F4D;&#xFF0C;&#x5728;&#x62A5;&#x544A;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x4E5F;&#x4E0D;&#x662F;&#x5F88;&#x660E;&#x663E;&#x3002;</p>
+<p>&#x5219;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5B9E;&#x73B0;ITest&#x63A5;&#x53E3;(org.testng.ITest)&#x6765;&#x91CD;&#x5199;getTestName()&#x65B9;&#x6CD5;</p>
+<p>&#x5982;&#x4E0B;&#x662F;&#x91CD;&#x5199;&#x540E;&#x7684;&#x6D4B;&#x8BD5;&#x7ED3;&#x679C;,&#x81F3;&#x4E8E;&#x50CF;&#x4FEE;&#x6539;&#x6210;&#x4EC0;&#x4E48;&#x6837;&#x5B50;&#x6765;&#x4F53;&#x73B0;&#x7684;&#x66F4;&#x7CBE;&#x7EC6;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x6162;&#x6162;&#x659F;&#x914C;&#x3002;</p>
+<p><img src="./images/testng%E6%A6%82%E8%A7%88/%E9%87%8D%E5%86%99Itest%E5%B9%B6%E4%BF%AE%E6%94%B9%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%E5%90%8D%E7%A7%B0.png" alt="&#x5B9E;&#x73B0;Itest&#x91CD;&#x5199;&#x65B9;&#x6CD5;&#x540D;&#x79F0;"></p>
+<p>&#x5982;&#x4E0B;&#x662F;&#x5728;&#x6D4B;&#x8BD5;&#x62A5;&#x544A;&#x4E2D;&#x7684;&#x4F53;&#x73B0;:</p>
+<p><img src="./images/testng%E6%A6%82%E8%A7%88/%E9%87%8D%E5%86%99itest%E4%B9%8B%E5%90%8E%E7%9A%84%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A%E5%B1%95%E7%A4%BA.png" alt="&#x5B9E;&#x73B0;Itest&#x4E4B;&#x540E;&#x7684;&#x6D4B;&#x8BD5;&#x62A5;&#x544A;&#x53D8;&#x5316;"></p>
+<h3 class="mume-header" id="13-%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E6%B5%8B%E8%AF%95ddt">1.3 &#x6570;&#x636E;&#x9A71;&#x52A8;&#x6D4B;&#x8BD5;(DDT)</h3>
+
+<p>&#x7531;&#x4E8E;DDT&#x6982;&#x5FF5;&#x6BD4;&#x8F83;&#x5927;&#xFF0C;TestNG&#x4E2D;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x4E5F;&#x4E0D;&#x5C11;&#xFF0C;&#x56E0;&#x6B64;&#x53E6;&#x6362;&#x4E00;&#x7BC7;&#x51C6;&#x4EEC;&#x4ECB;&#x7ECD;&#x6570;&#x636E;&#x9A71;&#x52A8;&#x3002;</p>
 
       </div>
       

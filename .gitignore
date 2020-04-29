@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### TESTNG###
+**/test-output/
+**/logs/

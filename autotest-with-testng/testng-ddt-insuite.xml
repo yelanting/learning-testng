@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="ddt with Parameters">
+<suite name="DDT test in suite Parameters">
+	<parameter name="name" value="nameInSuite"></parameter>
+	<parameter name="sex" value="sexInSuite"></parameter>
 	<test thread-count="5" name="Test">
-		<parameter name="name" value="nameInTest"></parameter>
-		<parameter name="sex" value="sexInTest"></parameter>
 		<classes>
 			<class
 				name="com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest">
@@ -12,5 +12,5 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
-</suite>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

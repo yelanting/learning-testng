@@ -1,106 +1,175 @@
-[2020.04.24 14:57:07] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 14:57:07] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:02:53] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:02:53] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:02:53] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:03:54] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:03:54] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:03:54] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:03:54] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:04:49] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 15:04:49] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:05:39] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:05:39] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:05:39] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:05:39] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:05:39] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 15:05:39] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:06:47] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
-[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:06:47] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:06:47] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 15:06:47] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
-[2020.04.24 15:07:48] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
-[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:07:48] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:07:48] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 15:07:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:33:15] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
-[2020.04.24 15:33:16] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
-[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:33:16] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:33:16] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 15:33:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
-[2020.04.24 15:34:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
-[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:34:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 文件不存在异常
-[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 15:34:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 15:34:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 18:13:21] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
-[2020.04.24 18:13:21] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 18:13:21] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
-[2020.04.24 18:13:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 18:13:22] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 18:13:22] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemoTest] - com.autotest.java.demo.testng.TestNGDemoTest测试类被初始化
-[2020.04.24 18:18:10] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoTest] - 测试类:com.autotest.java.demo.testng.TestNGDemoTest
-[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
-[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出多于一个异常的方法
-[2020.04.24 18:18:10] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemo] - 算术异常
-[2020.04.24 18:18:10] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - 这是一个抛出一个异常的方法
-[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度0
-[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度0
-[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度0
-[2020.04.24 18:45:36] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度0
-[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度5
-[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度2
-[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度4
-[2020.04.24 18:46:28] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度1
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度5
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度7
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度2
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 长度9
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度4
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度6
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度1
-[2020.04.24 18:52:37] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTest] - 宽度8
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度9
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度2
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度7
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度5
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度8
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度1
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度6
-[2020.04.24 19:01:11] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度4
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度9
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度2
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度7
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度5
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度8
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度1
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度6
-[2020.04.24 19:08:15] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度4
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度2
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度9
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度5
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 长度7
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度1
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度8
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度4
-[2020.04.24 19:10:19] [main] [DEBUG] [com.autotest.java.demo.testng.TestNGDemoWithFactoryTestImplementITest] - 宽度6
+[2020.04.29 16:18:38] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：test,sex:test
+[2020.04.29 16:22:22] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：nameInTest,sex:sexInTest
+[2020.04.29 16:23:59] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：nameInSuite,sex:sexInSuite
+[2020.04.29 16:24:09] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：nameInTest,sex:sexInTest
+[2020.04.29 16:26:21] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：nameInTest,sex:sexInTest
+[2020.04.29 16:26:59] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：nameInSuite,sex:sexInSuite
+[2020.04.29 16:29:51] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTest] - name：nameInSuite,sex:sexInSuite
+[2020.04.29 16:41:33] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 16:41:33] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 16:41:33] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 16:42:13] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 16:42:13] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 16:42:13] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 16:44:04] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersClearly方法被调用
+[2020.04.29 16:44:04] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 16:44:04] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 16:44:04] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 16:58:32] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersUnClearly方法被调用
+[2020.04.29 16:58:32] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 16:58:32] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 16:58:32] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersUnClearly方法被调用
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:null
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:null
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:00:08] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:null
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersUnClearly方法被调用
+[2020.04.29 17:00:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:com.autotest.java.demo.testng.TestNGDemo@2a40cd94
+[2020.04.29 17:00:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:com.autotest.java.demo.testng.TestNGDemo@1188e820
+[2020.04.29 17:00:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:00:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:com.autotest.java.demo.testng.TestNGDemo@166fa74d
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersClearly方法被调用
+[2020.04.29 17:01:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:01:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:01:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersUnClearly方法被调用
+[2020.04.29 17:01:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:com.autotest.java.demo.testng.TestNGDemo@166fa74d
+[2020.04.29 17:01:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:com.autotest.java.demo.testng.TestNGDemo@588df31b
+[2020.04.29 17:01:48] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:01:48] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - testNGDemo:com.autotest.java.demo.testng.TestNGDemo@7181ae3f
+[2020.04.29 17:17:27] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersWithDataProviderParam方法被调用,传入参数:public void com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider.validateUserTestWithProviderParam(java.lang.String,java.lang.String),传入上下文:org.testng.TestRunner@80169cf
+[2020.04.29 17:17:27] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:17:27] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:17:27] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:17:27] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:17:27] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:17:27] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入参数:public void com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider.validateUserTestWithProviderParamOne(java.lang.String,java.lang.String),传入上下文:org.testng.TestRunner@80169cf
+[2020.04.29 17:37:28] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:37:28] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:37:28] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入参数:public void com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider.validateUserTestWithProviderParamTwo(java.lang.String,java.lang.String),传入上下文:org.testng.TestRunner@80169cf
+[2020.04.29 17:37:28] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:37:28] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:37:28] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:37:28] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:women
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入参数:public void com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider.validateUserTestWithProviderParamDefault(java.lang.String,java.lang.String),传入上下文:org.testng.TestRunner@80169cf
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin2,sex:women
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入参数:public void com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider.validateUserTestWithProviderParamOne(java.lang.String,java.lang.String),传入上下文:org.testng.TestRunner@80169cf
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin3,sex:women
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin4,sex:women
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入参数:public void com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider.validateUserTestWithProviderParamTwo(java.lang.String,java.lang.String),传入上下文:org.testng.TestRunner@80169cf
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin,sex:man
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin5,sex:women
+[2020.04.29 17:41:16] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:41:16] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProvider] - name：admin6,sex:women
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@382db087
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:Default test
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin2,sex:women
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@382db087
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:Default test
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin3,sex:women
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin4,sex:women
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@382db087
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:Default test
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin5,sex:women
+[2020.04.29 17:57:00] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:57:00] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin6,sex:women
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@382db087
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:Default test
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin2,sex:women
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@382db087
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:Default test
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin3,sex:women
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin4,sex:women
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@382db087
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:Default test
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin5,sex:women
+[2020.04.29 17:58:35] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 17:58:35] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin6,sex:women
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@73d4cc9e
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:DDT DATAPROVIDER TEST
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin2,sex:women
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@73d4cc9e
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:DDT DATAPROVIDER TEST
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin3,sex:women
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin4,sex:women
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@73d4cc9e
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[],suite:DDT DATAPROVIDER TEST
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin5,sex:women
+[2020.04.29 18:00:23] [main] [INFO ] [com.autotest.java.demo.testng.TestNGDemo] - com.autotest.java.demo.testng.TestNGDemo构造方法被初始化
+[2020.04.29 18:00:23] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin6,sex:women
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@b9afc07
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[testGroup2, testGroup1],suite:DDT DATAPROVIDER TEST
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin2,sex:women
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@b9afc07
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[testGroup2, testGroup1],suite:DDT DATAPROVIDER TEST
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin3,sex:women
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin4,sex:women
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - initTestUsersWithDataProviderParamOfDiffTestMethod方法被调用,传入上下文信息:org.testng.TestRunner@b9afc07
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - 测试组:[testGroup2, testGroup1],suite:DDT DATAPROVIDER TEST
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin,sex:man
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin5,sex:women
+[2020.04.29 18:03:20] [main] [DEBUG] [com.autotest.java.demo.testng.ddt.TestNGDDTDemoTestWithDataProviderITestContext] - name：admin6,sex:women
