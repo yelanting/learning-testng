@@ -33,3 +33,5 @@ build/
 ### TESTNG###
 **/test-output/
 **/logs/
+**/test-output/*
+**/logs/*
